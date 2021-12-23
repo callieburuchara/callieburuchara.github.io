@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #6bd4c8;
+			color: #b983ff;
 		}
 
 	strong, b {
@@ -2826,7 +2826,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: linear-gradient(45deg, #081b53 20%, #b983ff);
 			background-size: auto,							cover;
 		}
 
@@ -2914,10 +2914,10 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #081b53;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #081b53 50%, #b983ff);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3076,7 +3076,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			background-image: linear-gradient(45deg, #081b53, #b983ff);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3113,7 +3113,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #081b53 20%, #b983ff);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3510,3 +3510,20 @@ input, select, textarea {
 			}
 
 	}
+
+.small-icon {
+	width: 100px;
+}
+
+.callout {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.filler {
+	width: 1000px;
+}
+
+.image.profile img {
+	width: 80%;
+}
