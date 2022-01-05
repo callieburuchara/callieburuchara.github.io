@@ -3533,3 +3533,7 @@ input, select, textarea {
 .image.border img {
 	box-shadow: 5px 5px 20px grey;
 }
+
+section.blog-post {
+	padding: 8em 0em 0em 0em;
+}
